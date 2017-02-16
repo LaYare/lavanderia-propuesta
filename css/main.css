@@ -1,0 +1,68 @@
+body{
+	background-color: #191919;
+	font-family: Helvetica;
+}
+.container{
+	display: flex;
+	width: 100vw;
+	height: 90vh;
+	flex-direction: column;
+	align-items: center;
+	background: url("../img/girl.jpg");
+	filter: grayscale(0.9);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #ffffff;
+}
+.header{
+	display: flex;
+	width: 80vw;
+	flex-direction: row;
+	padding: 5vh;
+	justify-content: space-between;
+	font-family: Helvetica;
+	font-size: 2em;
+}
+.bienvenida{
+	display: flex;
+	height: 80vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.bienvenida a{
+	color: #ffffff;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 1.2em;
+	height: 5vh;
+	width: 10vw;
+	background-color: red;
+	text-align: center;
+	padding: 1em;
+}
+.calculadora{
+	display: flex;
+	justify-content: center;
+	color: #ffffff;
+	padding: 2vh;
+	font-size: 1.3em;
+}
+.calculadora a{
+	color: #3db2e1;
+	text-decoration: none;
+}
+.servicios{
+	display: flex;
+	justify-content: center;
+	background-color: #ffffff;
+}
+.lavanderia,.planchado,.tintoreria{
+	display: flex;
+	padding: 5vh 2vw;
+}
+.lavanderia h4,.planchado h4,.tintoreria h4{
+	color: #3db2e1;
+}
+
