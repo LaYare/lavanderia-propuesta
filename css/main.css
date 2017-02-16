@@ -1,6 +1,12 @@
 body{
 	background-color: #191919;
 	font-family: Helvetica;
+	overflow-x: hidden; 
+	margin-left: 0px !important;
+	margin-top: 0px !important;
+}
+.padding-b{
+	padding-bottom: 5vh;
 }
 .container{
 	display: flex;
@@ -65,4 +71,37 @@ body{
 .lavanderia h4,.planchado h4,.tintoreria h4{
 	color: #3db2e1;
 }
-
+.conte2{
+	display: flex;
+	justify-content: center;
+	background-image: url('../img/lavadora.jpg');
+	background-size: 70vw 71vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #ffffff;
+	color: #ffffff;
+	font-weight: lighter;
+}
+.razones{
+	background-color: rgba(61,178,225,0.5);
+	width: 70vw;
+	padding: 10vh 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.lista{
+	width: 70vw;
+	display: flex;
+	padding: 2vh;
+	justify-content: center;
+}
+.lista div{
+	width: 20vw;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+ .lista div img{
+ 	margin-right: 5%;
+ }
