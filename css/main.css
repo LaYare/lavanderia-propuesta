@@ -1,5 +1,5 @@
 body{
-	background-color: #191919;
+	background-color: #ffffff;
 	font-family: Helvetica;
 	overflow-x: hidden; 
 	margin-left: 0px !important;
@@ -37,7 +37,7 @@ body{
 	align-items: center;
 	justify-content: space-around;
 }
-.bienvenida a{
+.bienvenida a, .laven-mi-ropa a{
 	color: #ffffff;
 	text-decoration: none;
 	font-family: Helvetica;
@@ -53,6 +53,8 @@ body{
 	justify-content: center;
 	color: #ffffff;
 	padding: 2vh;
+	background-color: #191919;
+	width: 100vw;
 	font-size: 1.3em;
 }
 .calculadora a{
@@ -85,7 +87,7 @@ body{
 .razones{
 	background-color: rgba(61,178,225,0.5);
 	width: 70vw;
-	padding: 10vh 0;
+	padding: 4vh 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -104,4 +106,34 @@ body{
 }
  .lista div img{
  	margin-right: 5%;
- }
+}
+.laven-mi-ropa{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.laven-mi-ropa a{
+	font-size: 1em;
+}
+.garantia{
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+	padding-top: 8vh;
+}
+.garantia div{
+	margin-left: 5vw;
+	font-size: 1.1em;
+}
+.garantia div h2{
+	font-weight: initial;
+}
+.garantia div img{
+	height: 23vh;
+	margin-top: 3vh;
+}
+hr{
+	width: 72vw;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
