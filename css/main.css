@@ -24,12 +24,18 @@ body{
 }
 .header{
 	display: flex;
-	width: 80vw;
+	width: 100vw;
 	flex-direction: row;
+	justify-content: space-around;
 	padding: 5vh;
-	justify-content: space-between;
 	font-family: Helvetica;
 	font-size: 2em;
+	position: fixed;
+  background: -webkit-linear-gradient(black, transparent);
+  background: -o-linear-gradient(black, transparent);
+  background: -moz-linear-gradient(black, transparent);
+  background: linear-gradient(black, transparent);
+
 }
 .bienvenida{
 	display: flex;
@@ -37,6 +43,9 @@ body{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
+}
+.bienvenida h2{
+	margin-top: 35vh;
 }
 .bienvenida a, .laven-mi-ropa a{
 	color: #ffffff;
@@ -183,6 +192,7 @@ hr{
 }
 .ubicacion iframe{
 	margin-right: 5%;
+	width: 30vw;
 }
 .ubicacion div h2{
 	margin-top: 15%;
