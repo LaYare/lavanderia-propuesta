@@ -53,8 +53,8 @@ body{
 	justify-content: center;
 	color: #ffffff;
 	padding: 2vh;
-	background-color: #191919;
-	width: 100vw;
+	background-color: #2E3942;
+	width: 98vw;
 	font-size: 1.3em;
 }
 .calculadora a{
@@ -173,6 +173,42 @@ hr{
 .column .face{
 	background-color: #415E9B; 
 	border-style: none;
+	color: #ffffff;
+}
+.ubicacion{
+	width: 98vw;
+	display: flex;
+	justify-content: center;
+}
+.ubicacion iframe{
+	margin-right: 5%;
+}
+.ubicacion div h2{
+	margin-top: 15%;
+}
+.ubicacion div ul{
+	list-style: none;
+}
+.suscripcion{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.suscripcion input{
+	width: 250px;
+	height: 25px;
+	font-size: 1em;
+}
+.suscripcion button{
+	background-color: #66CCFF; 
+	border-style: none;
+	border-radius: 5px;
+	padding: 12px 20px;
+	color: #ffffff;
+	font-size: 1em;
+}
+.footer{
+	background-color: #2E3942;
 	color: #ffffff;
 }
 
